@@ -129,10 +129,10 @@ class Classifier:
 
     def __str__(self):
         return (
-            f"Model name: {self.model_name}\n"
-            f"penalty: {self.penalty}\n"
-            f"C: {self.C}\n"
-            f"l1_ratio: {self.l1_ratio}\n"
+            f"Model name: {self.model_name} ("
+            f"C: {self.C}, "
+            f"l1_ratio: {self.l1_ratio}, "
+            f"penalty: {self.penalty})"
         )
 
 
